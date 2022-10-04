@@ -1,0 +1,41 @@
+==========================================
+gpu_id:5
+s:0
+t:1
+interval:2
+batch_size:36
+worker:6
+dset:visda
+lr:0.001
+net:resnet101
+seed:2022
+lr_decay1:0.1
+lr_decay2:1
+bottleneck:256
+layer:wn
+classifier:bn
+output:log
+da:uda
+issave:False
+temperature:2.5
+trade_off:1
+max_it:10000
+base:MCC
+method:LECO
+lamda:3.0
+warm_up:3000
+class_num:12
+root:/data1/junbao3/MM/xdwang/data/visda
+folder:./data/txt/
+s_dset_path:./data/txt/visda/train.txt
+t_dset_path:./data/txt/visda/validation.txt
+t_dset_path_unl:./data/txt/visda/validation.txt
+output_dir:log/uda/visda/TV
+name:TV
+savename:MCC_LECO_3.0_2022_
+out_file:<_io.TextIOWrapper name='log/uda/visda/TV/log_MCC_LECO_3.0_2022_.txt' mode='w' encoding='UTF-8'>
+
+Task: TV, Iter:5000/10000; Accuracy = 82.32%
+96.43 79.51 82.52 88.81 95.67 95.9 92.53 78.6 93.67 74.22 86.73 23.27
+Task: TV, Iter:10000/10000; Accuracy = 86.26%
+96.49 87.02 79.17 90.46 95.86 96.43 91.24 82.55 94.55 92.42 88.36 40.57
