@@ -33,6 +33,7 @@ We set seed=[2020, 2021, 2022], showing the stable improvements to MCC. Logs can
 | MCC+LeCo(2020) |97.12 |85.96 |83.86 |89.66 |96.55 |97.45 |89.06| 84.05 |95.91 |90.79 |85.08 |43.82| 86.61
 | MCC+LeCo(2021) |95.72 |86.33 |86.46 |91.55 |96.18 |96.82 |92.53| 74.18 |96.07 |92.85 |84.07 |38.09| 85.90
 | MCC+LeCo(2022) |96.49 |87.02 |79.17 |90.46 |95.86 |96.43 |91.24 |82.55 |94.55 |92.42 |88.36 |40.57| 86.26
+
 For CDAN:
 ```
 python da_visda.py --dset visda --lr 0.01 --net resnet101 --gpu_id 0 --batch_size 36 --base CDAN --method Blank --interval 2 --s 0 --t 1 --warm_up 3000 --lamda 3 --lr_decay2 0.1
