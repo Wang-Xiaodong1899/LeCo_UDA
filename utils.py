@@ -1,5 +1,5 @@
 from torchvision import transforms
-from randaugment import RandAugmentMC
+from module.randaugment import RandAugmentMC
 import torch
 import random
 import numpy as np
