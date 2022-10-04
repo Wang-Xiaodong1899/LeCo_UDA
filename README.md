@@ -90,10 +90,10 @@ python da_office.py --gpu_id 0 --base MCC --method LECO --num_iterations 8004  -
 ```
 
 ## Visualization
-Intra-class variance and inter-class variance visualization can refer to files ([cal_cluster_intra.py](./cal_cluster_intra.py), [cal_cluster_inter.py](./cal_cluster_inter.py)).
+Intra-class variance and inter-class variance visualization can refer to files ([cal_cluster_intra.py](./tool/cal_cluster_intra.py), [cal_cluster_inter.py](./tool/cal_cluster_inter.py)).
 
 ## Validation
-Choosing the best hyper-parameter can refer to file: [dev_loss.py](./dev_loss.py).
+Choosing the best hyper-parameter can refer to file: [dev_loss.py](./tool/dev_loss.py).
 
 ## BibTeX
 ```
