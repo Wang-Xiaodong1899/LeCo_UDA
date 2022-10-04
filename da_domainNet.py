@@ -18,8 +18,8 @@ import warnings
 warnings.filterwarnings('ignore')
 # from tensorboardX import SummaryWriter
 
-import network, loss
-from data_list import ImageList, ImageList_idx,ImageList_NK
+from module import network, loss
+from module.data_list import ImageList, ImageList_idx,ImageList_NK
 from utils import image_test, image_train, op_copy, lr_scheduler, TransformFixMatch, setup_seed
 
 

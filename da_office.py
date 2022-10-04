@@ -13,12 +13,11 @@ import pdb
 import math
 from tqdm import tqdm
 
-import network_ as network
-import loss
-import pre_process as prep
-import lr_schedule
-import data_list
-from data_list import ImageList
+from module import network_ as network
+from module import loss, lr_schedule
+from module import pre_process as prep
+import module.data_list as data_list
+from module.data_list import ImageList
 from utils import setup_seed
 
 def image_classification_test(loader, model, test_10crop=True):

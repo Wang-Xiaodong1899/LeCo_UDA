@@ -1,5 +1,5 @@
 # Codebase Readme
-This is the codebase for paper: "Revisiting Unsupervised Domain Adaptation Models: a Smoothness Perspective"
+This is the codebase for paper: "Revisiting Unsupervised Domain Adaptation Models: a Smoothness Perspective" (ACCV 2022)
 
 ## Environment
 ```

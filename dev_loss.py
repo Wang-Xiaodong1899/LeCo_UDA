@@ -2,15 +2,14 @@ import os
 import os.path as osp
 import torch
 import argparse
-import network
-import loss
+from module import network, loss
 import numpy as np
 import torch.optim as optim
 from torch.utils.data import DataLoader
 import torch.nn as nn
-import data_list
+import module.data_list as data_list
 import math
-from data_list import ImageList
+from module.data_list import ImageList
 from tqdm import trange
 from utils import image_train,image_test
 parser = argparse.ArgumentParser(description='show DEV loss')
