@@ -100,8 +100,9 @@ Choosing the best hyper-parameter can refer to file: [dev_loss.py](./tool/dev_lo
 ```
 @inproceedings{wang2022revisiting,
   title={Revisiting Unsupervised Domain Adaptation Models: a Smoothness Perspective},
-  author={Xiaodong Wang, Junbao Zhuo, Mengru Zhang, Shuhui Wang, and Yuejian Fang},
+  author={Wang, Xiaodong and Zhuo, Junbao and Zhang, Mengru and Wang, Shuhui and Fang, Yuejian},
   booktitle={Proceedings of the Asian Conference on Computer Vision},
+  pages={1504--1521},
   year={2022}
 }
 ```
